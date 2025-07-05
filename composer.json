@@ -1,0 +1,19 @@
+{
+    "name": "pecotamic/missing-pages-logger",
+    "autoload": {
+        "psr-4": {
+            "Pecotamic\\MissingPagesLogger\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Pecotamic Missing Pages Logger",
+            "description": "Statamic addon logging missing pages (404 errors)"
+        },
+        "laravel": {
+            "providers": [
+                "Pecotamic\\MissingPagesLogger\\ServiceProvider"
+            ]
+        }
+    }
+}
