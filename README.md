@@ -33,9 +33,9 @@ In your `.env` file:
 PECOTAMIC_MISSING_PAGES_LOGGER_ENABLED=true
 ```
 
-Or in the config file `config/missing-pages-logger.php`:
+Or in the published config file `config/pecotamic/missing-pages-logger.php`:
 ```php
-'log_missing_pages' => env('PECOTAMIC_MISSING_PAGES_LOGGER_ENABLED', false),
+'enabled' => env('PECOTAMIC_MISSING_PAGES_LOGGER_ENABLED', true),
 ```
 
 **Log Files Location:**

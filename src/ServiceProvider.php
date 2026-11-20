@@ -2,15 +2,9 @@
 
 namespace Pecotamic\MissingPagesLogger;
 
-use Pecotamic\MissingPagesLogger\Data\Data;
 use Pecotamic\MissingPagesLogger\Http\Middleware\MissingPagesLogger;
 use Statamic\Providers\AddonServiceProvider;
 use Statamic\Statamic;
-use Carbon\Carbon;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
-use Illuminate\Support\Str;
-use Symfony\Component\Yaml\Yaml;
 
 class ServiceProvider extends AddonServiceProvider
 {
